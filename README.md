@@ -1,16 +1,18 @@
-# simple_overlay_camera
+# OverlayCam - オーバーレイカメラ
 
-A new Flutter project.
+OverlayCamは、カメラ映像とギャラリーの画像を重ねて写真を撮影することができるアプリです。
 
-## Getting Started
+## 主な機能
 
-This project is a starting point for a Flutter application.
+*   **オーバーレイ画像の選択:** ギャラリーから画像を選択
+*   **オーバーレイ画像の変形:** 
+    *   2本指でのプレビュー画像拡大・縮小（ピンチズーム）
+    *   2本指でのプレビュー画像回転
+*   **撮影:** 
+    *   カメラのプレビューにオーバーレイ画像を重ねて写真を撮影
+    *   撮影した写真をギャラリーに保存
 
-A few resources to get you started if this is your first Flutter project:
+## 開発環境
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+*   Flutter 3.16.1
+*   Dart 2.19.2
